@@ -1,0 +1,9 @@
+torch==2.2.1
+torchdiffeq==0.2.4
+torchvision==0.17.1
+absl-py==2.1.0
+clean-fid==0.1.35
+numpy==1.26.4
+torchdyn==1.0.6
+POT=0.9.4
+torchmetrics[image]
