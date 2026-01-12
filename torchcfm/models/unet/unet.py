@@ -872,7 +872,7 @@ class UNetModelWrapper(UNetModel):
         num_head_channels=-1,
         num_heads_upsample=-1,
         use_scale_shift_norm=False,
-        dropout=0,
+        dropout=0.0,
         resblock_updown=False,
         use_fp16=False,
         use_new_attention_order=False,
