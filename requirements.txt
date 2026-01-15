@@ -7,3 +7,4 @@ numpy==1.26.4
 torchdyn==1.0.6
 POT=0.9.4
 torchmetrics[image]
+tensorboard==2.11.0
