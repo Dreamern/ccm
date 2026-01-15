@@ -49,7 +49,7 @@ with torch.no_grad():
     elif task == 'gen':
         if local_rank == 0:
             os.makedirs(os.path.join(model_dir, 'images'), exist_ok=True)
-            utils.generate_samples(new_net, model_dir, dataset=dataset, local_rank=local_rank, integration_step=1, model_name=model_name)
+            utils.generate_samples(new_net, model_dir, dataset=dataset, local_rank=local_rank, integration_step=1, model_name=model_name[:-3])
     else:
         print('unsupported task')
 
